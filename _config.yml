@@ -1,0 +1,29 @@
+title: Levi Blackstone
+description: Principal software engineer focused on cloud platforms, Kubernetes, Infrastructure-as-Code, and governance.
+url: https://leviblackstone.com
+author: Levi Blackstone
+
+github_username: lblackstone
+linkedin_url: https://www.linkedin.com/in/levi-blackstone
+
+permalink: /writing/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  path: writing/feed.xml
+
+exclude:
+  - README.md
