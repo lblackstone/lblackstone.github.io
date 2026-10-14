@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Levi Blackstone
 ---
 
 # Hi, I'm Levi.
