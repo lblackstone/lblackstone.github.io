@@ -3,6 +3,8 @@ layout: default
 title: Levi Blackstone
 ---
 
+<figure class="avatar"><img src="{{ '/assets/img/levi.jpg' | relative_url }}" alt="Levi Blackstone" width="160" height="160"></figure>
+
 # Hi, I'm Levi.
 
 I’m a Principal software engineer focused on cloud platforms, Kubernetes, Infrastructure-as-Code, policy and governance, and distributed systems. My 15+ years of experience include AI/ML, high-performance computing, and embedded systems, with earlier work in classical machine learning, image processing, and AI before I moved into cloud platforms in 2014.

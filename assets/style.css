@@ -72,6 +72,21 @@ pre { background: var(--code-bg); padding: 1rem; border-radius: 6px; overflow-x:
 pre code { background: none; padding: 0; }
 
 img { max-width: 100%; height: auto; }
+
+.avatar {
+  float: right;
+  width: 160px;
+  height: 160px;
+  margin: 0.25rem 0 1rem 1.75rem;
+}
+.avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px var(--border);
+}
 hr { border: 0; border-top: 1px solid var(--border); margin: 2.5rem 0; }
 
 table { border-collapse: collapse; width: 100%; margin: 1.5rem 0; display: block; overflow-x: auto; }
@@ -89,4 +104,5 @@ th, td { border: 1px solid var(--border); padding: 0.4rem 0.75rem; text-align: l
   body { font-size: 17px; padding-top: 1.5rem; }
   .post-list li { flex-direction: column; gap: 0; }
   .post-list time { flex-basis: auto; }
+  .avatar { width: 112px; height: 112px; margin-left: 1.25rem; }
 }
