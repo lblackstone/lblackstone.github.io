@@ -24,5 +24,8 @@
     <a href="https://github.com/{{ site.github_username }}">GitHub</a>
     <a href="{{ site.linkedin_url }}">LinkedIn</a>
   </footer>
+  {% if jekyll.environment == 'production' %}
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "9e228af421074fa3815e540075573f02"}'></script>
+  {% endif %}
 </body>
 </html>
