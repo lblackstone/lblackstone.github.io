@@ -33,6 +33,8 @@ body {
 
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
+main :is(p, li, blockquote, td) a { text-decoration: underline; text-underline-offset: 0.15em; }
+.post-list a:not(:hover) { text-decoration: none; }
 
 .site-header {
   display: flex;

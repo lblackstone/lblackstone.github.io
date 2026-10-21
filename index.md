@@ -3,7 +3,7 @@ layout: default
 title: Levi Blackstone
 ---
 
-<figure class="avatar"><img src="{{ '/assets/img/levi.jpg' | relative_url }}" alt="Levi Blackstone" width="160" height="160"></figure>
+<figure class="avatar"><img src="{{ '/assets/img/levi-320.webp' | relative_url }}" alt="Levi Blackstone" width="160" height="160"></figure>
 
 # Hi, I'm Levi.
 
