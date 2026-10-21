@@ -17,9 +17,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/levi.jpg
-      twitter:
-        card: summary
+      image: /assets/img/card.jpg
   - scope:
       type: posts
     values:
