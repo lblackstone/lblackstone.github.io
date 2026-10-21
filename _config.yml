@@ -14,6 +14,12 @@ kramdown:
 
 defaults:
   - scope:
+      path: ""
+    values:
+      image: /assets/img/levi.jpg
+      twitter:
+        card: summary
+  - scope:
       type: posts
     values:
       layout: post
@@ -21,6 +27,7 @@ defaults:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 feed:
   path: writing/feed.xml
